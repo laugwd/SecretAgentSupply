@@ -6,19 +6,16 @@ html{
 
 body{
   margin: 0;
-
 }
 
-.top-right-border{
-  background-color: black;
-  width: 1rem;
-  height: 1rem
-}
+
+
 
 .top-wrapper{
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid 2px yellow;
 }
 
 .main-wrapper{
@@ -26,8 +23,19 @@ body{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 960px;
-  border: solid 10px green;
+
   margin: 0 auto;
+}
+
+.master{
+  border: hotpink 1px solid;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  background-color: black;
 }
 
 .header-top{
@@ -35,10 +43,10 @@ body{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   display: inline-block;
-  width: 100%;
+  width: 960px;
   margin: 0 auto;
   background-color: black;
-  border: solid 10px yellow;
+  border: yellow 1px solid;
 }
 
 .logo-picture img{
@@ -65,8 +73,18 @@ body{
   border: solid 1px aqua;
 }
 
+.master1{
+  margin: auto;
+  width: 960px;
+  padding: 10px;
+  border: green 1px solid;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .main-header-box{
-  border: solid 20px pink;
+  border: solid 2px pink;
   height: 25rem;
 }
 
@@ -81,19 +99,30 @@ body{
     margin-top: 10rem;
 }
 
-.header-box p{
+.header-box-p{
   font-size: 1rem;
   border: solid 1px aqua;
   padding-bottom: 0.25rem;
 }
 
-.header-box h1{
+.header-box-h1{
   font-size: 2rem;
   border: solid 1px aqua;
 }
 
+.nav-background{
+  width: 100%;
+  height:
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: firebrick;
+  border: solid 5px lightgreen;
+
+}
+
 .nav-header-bottom{
-  border: solid 20px orange;
+  border: solid 5px blue;
   background-color: firebrick;
   width: auto;
   margin: 0 auto;
@@ -107,14 +136,26 @@ body{
   text-decoration: none;
   border: solid 1px aqua;
   margin-left: 4rem;
+  text-align: left;
+}
+
+.items-background{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 1px red;
+
 }
 
 .items{
   display: inline-block;
   background-color: white;
-  border: solid 1px aqua;
-  width: 100%;
+  border: solid 3px red;
+  width: 960px;
   margin: 3rem 0rem 3rem 0rem;
+  text-align: center;
 }
 
 .gallery{
@@ -142,12 +183,78 @@ body{
   font-family: Helvetica;
 }
 
+.hours-location-background{
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 10px red;
+}
+
 .hours-location{
-  clear: both;
+  width: 960px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 16px green;
+}
+
+.location-block{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  border: solid 6px yellow;
+}
+
+.hours-location-left{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  width: auto;
+  margin: auto;
+  border: solid 10px yellow;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.hours-block{
+  display: inline-block;
+  width: 30%;
+  border: solid 6px yellow;
+  margin-left: 19.2rem;
+}
+
+.hours-location-right{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  border: solid 10px yellow;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.main-footer-background{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 1px aqua;
+  background-color: black;
+  margin-top: 4rem;
 }
 
 .main-footer{
   color: white;
+  width: 960px;
+  margin: auto;
   background-color: black;
   height: 5rem;
+  border: solid 1px yellow;
 }
